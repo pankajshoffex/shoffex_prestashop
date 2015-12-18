@@ -1,0 +1,6 @@
+01-12-2015 09:57:20: 120 - authentication failed - Additional information: "No authentication data present."
+	#0 /var/www/html/prestashop/modules/shopgate/vendors/shopgate_library/classes/apis.php(157): ShopgateAuthenticationServiceShopgate->checkAuthentication()
+	#1 /var/www/html/prestashop/modules/shopgate/vendors/shopgate_library/classes/core.php(1586): ShopgatePluginApi->handleRequest(Array)
+	#2 /var/www/html/prestashop/modules/shopgate/api.php(34): ShopgatePlugin->handleRequest(Array)
+	#3 {main}
+
